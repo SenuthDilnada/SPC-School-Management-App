@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        main {
+            padding: 20px;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>School Management System</h1>
+    </header>
+
+    <nav>
+        <a href="#attendance">Attendance</a>
+        <a href="#grades">Grades</a>
+        <a href="#homework">Homework</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#communication">Communication</a>
+        <a href="#library">Library</a>
+        <a href="#events">Events</a>
+    </nav>
+
+    <main>
+        <section id="attendance" class="dashboard">
+            <div class="card">
+                <h3>Attendance</h3>
+                <p>Track student and teacher attendance.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Grades</h3>
+                <p>Input and view grades.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Homework</h3>
+                <p>Manage and submit assignments.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+        </section>
+
+        <section id="schedule" class="dashboard">
+            <div class="card">
+                <h3>Class Schedule</h3>
+                <p>View and manage class timetables.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Communication</h3>
+                <p>Messaging system for teachers, students, and parents.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Library</h3>
+                <p>Manage issued and returned books.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+        </section>
+
+        <section id="events" class="dashboard">
+            <div class="card">
+                <h3>Events</h3>
+                <p>School event calendar and notifications.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Fees</h3>
+                <p>Track fee payments and online payment options.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+            <div class="card">
+                <h3>Exams</h3>
+                <p>Schedule and manage exams.</p>
+                <!-- Add more content and forms as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 School Management System</p>
+    </footer>
+
+</body>
+</html>
